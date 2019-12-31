@@ -18,7 +18,7 @@ const forecast = (latitude, longitude, callback) => {
                 " it is currntly "
                 + temprature + " degrees out. There is a "
                 + precipProbability + "% chance of rain. Max temperature = "
-                + highestTemp + " degrees.Min temperature = " + LowestTemp + " degrees");
+                + highestTemp + " degrees. Min temperature = " + LowestTemp + " degrees");
 
             callback(undefined, msg)
         }
